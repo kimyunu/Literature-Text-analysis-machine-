@@ -350,5 +350,5 @@ if __name__ == "__main__":
         )
     
     # Gradio 웹 서버 시작
-    demo.launch(server_port=7860, share=False)
-    print("Gradio 웹 서버가 http://localhost:7860 에서 실행 중입니다.")
+    demo.launch(server_name="0.0.0.0", server_port=10000)
+    print("Gradio 웹 서버가 0.0.0.0:10000 (Render 서버용)에서 실행 중입니다.")
